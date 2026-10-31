@@ -27,31 +27,3 @@ An engineering-focused curriculum from AI foundations to production LLM applicat
 | 09 | Evaluation, safety, prompt injection, privacy |
 | 10 | Deployment, observability, cost, resilience |
 | 11 | Portfolio projects |
-
-## Quick start
-```bash
-python -m venv .venv
-# Windows: .venv\\Scripts\\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-pytest
-uvicorn examples.api.main:app --reload
-```
-Open `http://127.0.0.1:8000/docs`. The included API is a deterministic mock; it does not call an LLM.
-
-For PyTorch, install the correct wheel for your platform/accelerator using https://pytorch.org/get-started/locally/.
-
-## Engineering principles
-- Model output is not automatically factual or verified.
-- Treat retrieved documents, user input, and tool output as untrusted data.
-- Enforce authorization in backend code, never in prompts.
-- Keep provider secrets server-side.
-- Validate structured output before using it.
-- Evaluate retrieval, generation, safety, latency, and cost independently.
-- Bound tool permissions, execution time, steps, and spend.
-
-## Limitations
-No pretrained weights, paid API credentials, or trained model are included. Some labs require external services, datasets, or GPU resources. This is a learning curriculum, not a claim that a model has been trained.
-
-MIT License. See `LICENSE`.
