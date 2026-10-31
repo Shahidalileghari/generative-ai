@@ -1,0 +1,1 @@
+Engineering-focused generative AI course from foundations to production: neural networks, NLP, tokenization, transformers, LLM APIs, prompt engineering, RAG, fine-tuning, agents, evaluation, safety, deployment, and practical Python projects.

@@ -1,0 +1,7 @@
+{
+  "id": "case-001",
+  "input": "Question or task",
+  "expected_evidence": ["source-id-1"],
+  "expected_behavior": "Answer with evidence or abstain",
+  "checks": {"grounded": true, "schema_valid": true, "no_unauthorized_tool_use": true}
+}

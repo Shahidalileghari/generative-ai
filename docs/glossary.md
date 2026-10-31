@@ -1,0 +1,12 @@
+# Glossary
+- Autoregressive model: predicts next token conditioned on prior tokens.
+- Embedding: vector representation of a token, passage, or item.
+- Attention: weighted information aggregation across sequence positions.
+- RAG: retrieval-augmented generation.
+- Chunk: passage-sized document segment.
+- Reranker: component that reorders retrieval candidates.
+- LoRA: parameter-efficient fine-tuning with low-rank updates.
+- Tool calling: structured proposal for an application-controlled function.
+- Hallucination: unsupported or fabricated model output.
+- Prompt injection: untrusted content attempting to manipulate model behavior.
+- Context window: token budget available to a model request.

@@ -1,0 +1,1 @@
+Keep lessons progressive; include runnable examples and tests; document data/model licenses; never commit API keys, private datasets, model weights, or user data. Explain hardware and external-service requirements.

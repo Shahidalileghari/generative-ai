@@ -1,0 +1,1 @@
+Never commit credentials. Enforce access control outside prompts. Treat retrieved documents and tool outputs as untrusted. Isolate tenant data, validate generated output, bound tool permissions, and execution budgets.

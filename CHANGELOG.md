@@ -1,0 +1,1 @@
+## 1.0.0 — 2026-10-31\n- Initial generative AI curriculum, practical labs, deterministic FastAPI demo, tests, and project briefs.
