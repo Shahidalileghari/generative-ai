@@ -1,4 +1,4 @@
-# Generative AI Mastery
+# Generative AI
 
 An engineering-focused curriculum from AI foundations to production LLM applications.
 
